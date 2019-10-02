@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f2f6fc;stroke: #54a6de;stroke-width: 2 } 
+	</style>
+	<g id="Box Mail">
+		<g id="Box Body">
+			<g id="Side Bar">
+				<g id="Labels">
+					<g id="Side Bar Labels">
+						<g id="Label">
+							<path id="Label Blue" class="shp0" d="M11.5 1C17.3 1 22 5.7 22 11.5C22 17.3 17.3 22 11.5 22C5.7 22 1 17.3 1 11.5C1 5.7 5.7 1 11.5 1Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

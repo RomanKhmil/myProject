@@ -1,4 +1,4 @@
-var ctx = $('#myChart');
+//var ctx = $('#myChart');
 var sctx = $('#secondChart');
 var ctx = document.getElementById('myChart').getContext("2d");
 var sctx = document.getElementById('secondChart').getContext("2d");

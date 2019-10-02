@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 28" width="30" height="28">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e4ebf7 } 
+	</style>
+	<g id="Document Side Bar">
+		<g id="Head Side Bar">
+			<path id="Icon Menu" class="shp0" d="M0 0L30 0L30 2L0 2L0 0ZM0 13L30 13L30 15L0 15L0 13ZM0 26L30 26L30 28L0 28L0 26Z" />
+		</g>
+	</g>
+</svg>

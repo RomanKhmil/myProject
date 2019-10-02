@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #a5a6bb;stroke-width: 2 } 
+	</style>
+	<g id="Box Project Activity">
+		<g id="Box Title">
+			<g id="Box Tools">
+				<path id="Close" class="shp0" d="M0.93 13.66L13.66 0.93L15.07 2.34L2.34 15.07L0.93 13.66ZM2.39 0.99L15.01 13.61L13.61 15.01L0.99 2.39L2.39 0.99Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
+	<defs>
+		<image width="16" height="16" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTYgMEwxNiAxNkwwIDE2WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjNDI1Nzc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZCB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiIGNsaXAtcGF0aD0idXJsKCNjcDEpIj4KCQk8cGF0aCBpZD0iUGF0aCAxIiBjbGFzcz0ic2hwMCIgZD0iTTEzLjEzIDcuMjJDMTMuMTMgMTAuNyAxMC4zIDEzLjUzIDYuODEgMTMuNTNDMy4zMyAxMy41MyAwLjUgMTAuNyAwLjUgNy4yMkMwLjUgMy43MyAzLjMzIDAuOTEgNi44MSAwLjkxQzEwLjMgMC45MSAxMy4xMyAzLjczIDEzLjEzIDcuMjJaTTExLjI4IDExLjY4TDE1LjA5IDE1LjUiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Document Header">
+		<g id="Input Search">
+			<use id="Icon Search" href="#img1" transform="matrix(1.796,0,0,1.796,0.5,0.5)"/>
+		</g>
+	</g>
+</svg>

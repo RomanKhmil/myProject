@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<defs>
+		<image width="12" height="11" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMiAxMSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjExIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTIgMEwxMiAxMUwwIDExWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjNDI1Nzc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6IDAuNzUgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik03Ljk0IDYuNzJMMTEuMTcgNi43Mkw5LjExIDAuNjJMMi40NCAwLjYyTDAuMzcgNi43MkwzLjYxIDYuNzJNNy45NCA2LjcyQzcuOTQgNy45MSA2Ljk3IDguODggNS43NyA4Ljg4QzQuNTggOC44OCAzLjYxIDcuOTEgMy42MSA2LjcyTDAuMzcgNi43MkwwLjM3IDEwLjYyTDExLjE3IDEwLjYyTDExLjE3IDYuNzJMNy45NCA2LjcyWiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Box Mail">
+		<g id="Box Body">
+			<g id="Side Bar">
+				<g id="Side Bar Buttons">
+					<g id="Side Bar Hover">
+						<g id="Button Inbox">
+							<use id="Icon Inbox" href="#img1" transform="matrix(1.992,0,0,2.14,0,0)"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

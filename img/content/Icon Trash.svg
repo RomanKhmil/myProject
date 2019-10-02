@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<defs>
+		<image width="14" height="15" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE1Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTQgMEwxNCAxNUwwIDE1WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjNDI1Nzc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZCB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiIGNsaXAtcGF0aD0idXJsKCNjcDEpIj4KCQk8cGF0aCBpZD0iUGF0aCAxIiBjbGFzcz0ic2hwMCIgZD0iTTEyLjQ0IDMuMTJMMTIuNDQgMTMuMDNDMTIuNDQgMTMuODQgMTEuNzcgMTQuNSAxMC45NiAxNC41TDMuNDcgMTQuNUMyLjY2IDE0LjUgMS45OSAxMy44NCAxLjk5IDEzLjAzTDEuOTkgMy4xMk0wLjUgMy4xMkwxMy45MyAzLjEyTTQuNTMgMTIuMjVMNC41MyA1LjM5TTcuMjIgMTIuMjVMNy4yMiA1LjM5TTkuOSAxMi4yNUw5LjkgNS4zOU01LjAzIDMuMTJMNS4wMyAyLjIxQzUuMDMgMS41MSA1LjYxIDAuOTMgNi4zMSAwLjkzTDguMTIgMC45M0M4LjgyIDAuOTMgOS40IDEuNTEgOS40IDIuMjFMOS40IDMuMTIiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Box Mail">
+		<g id="Box Body">
+			<g id="Side Bar">
+				<g id="Side Bar Buttons">
+					<g id="Button Trash">
+						<use id="Icon Trash" href="#img1" transform="matrix(1.663,0,0,1.647,0,0)"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

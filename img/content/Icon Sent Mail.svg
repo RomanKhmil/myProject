@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19" width="24" height="19">
+	<defs>
+		<image width="13" height="10" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMCIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEwIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTMgMEwxMyAxMEwwIDEwWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjNDI1Nzc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6IDAuNzUgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0xMS4wNyA5LjYzTDEuNzIgOS42M0MwLjk4IDkuNjMgMC4zOCA5LjAyIDAuMzggOC4yOEwwLjM4IDEuODdDMC4zOCAxLjEzIDAuOTggMC41MiAxLjcyIDAuNTJMMTEuMDcgMC41MkMxMS44MiAwLjUyIDEyLjQyIDEuMTMgMTIuNDIgMS44N0wxMi40MiA4LjI4QzEyLjQyIDkuMDIgMTEuODIgOS42MyAxMS4wNyA5LjYzWk0xMi4zIDEuM0w3LjMgNi41OUM2LjggNy4xMSA1Ljk5IDcuMTEgNS41IDYuNTlMMC41IDEuMyIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Box Mail">
+		<g id="Box Body">
+			<g id="Side Bar">
+				<g id="Side Bar Buttons">
+					<g id="Button Sent mail">
+						<use id="Icon Sent Mail" href="#img1" transform="matrix(1.876,0,0,1.928,0,0)"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

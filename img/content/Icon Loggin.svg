@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 38" width="29" height="38">
+	<defs>
+		<image width="9" height="13" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5IDEzIiB3aWR0aD0iOSIgaGVpZ2h0PSIxMyI+Cgk8ZGVmcz4KCQk8Y2xpcFBhdGggY2xpcFBhdGhVbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJjcDEiPgoJCQk8cGF0aCBkPSJNMCAwTDkgMEw5IDEzTDAgMTNaIiAvPgoJCTwvY2xpcFBhdGg+Cgk8L2RlZnM+Cgk8c3R5bGU+CgkJdHNwYW4geyB3aGl0ZS1zcGFjZTpwcmUgfQoJCS5zaHAwIHsgZmlsbDogbm9uZTtzdHJva2U6ICM0MjU3NzU7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDogMC41IH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSIgY2xpcC1wYXRoPSJ1cmwoI2NwMSkiPgoJCTxwYXRoIGlkPSJQYXRoIDEiIGNsYXNzPSJzaHAwIiBkPSJNNy43IDEyLjc1TDEuNDkgMTIuNzVDMC44MSAxMi43NSAwLjI1IDEyLjE5IDAuMjUgMTEuNUwwLjI1IDYuMjJDMC4yNSA1LjU0IDAuODEgNC45OCAxLjQ5IDQuOThMNy43IDQuOThDOC4zOCA0Ljk4IDguOTQgNS41NCA4Ljk0IDYuMjJMOC45NCAxMS41QzguOTQgMTIuMTkgOC4zOCAxMi43NSA3LjcgMTIuNzVaTTIuMTMgMi45OEMyLjEzIDEuNjEgMy4yNCAwLjUgNC42IDAuNUM1Ljk2IDAuNSA3LjA2IDEuNjEgNy4wNiAyLjk4TTcuMDYgMi45OEw3LjA2IDQuOThMMi4xMyA0Ljk4TDIuMTMgMi45OCIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Document Header">
+		<g id="Head Right Icons">
+			<use id="Icon Loggin" href="#img1" transform="matrix(3.155,0,0,2.98,0,0)"/>
+		</g>
+	</g>
+</svg>

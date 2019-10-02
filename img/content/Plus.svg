@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="15" height="15">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f2f6fc } 
+	</style>
+	<g id="Box Involved Team">
+		<g id="Button Green">
+			<path id="Plus" class="shp0" d="M7 0L9 0L9 14L7 14L7 0ZM1 6L15 6L15 8L1 8L1 6Z" />
+		</g>
+	</g>
+</svg>

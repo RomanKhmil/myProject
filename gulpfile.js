@@ -18,9 +18,9 @@ const scssFiles = [
 ];
 const jsFiles = [
     './src/js/jquery.classyloader.js',
-    //'./src/js/progress.js',
-    //'./src/js/graph.js',
-    //'./src/js/round_bar.js',
+    './src/js/progress.js',
+    './src/js/graph.js',
+    './src/js/round_bar.js',
 ];
 function styles() {
 	return gulp.src(scssFiles)
