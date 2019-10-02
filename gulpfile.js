@@ -11,12 +11,16 @@ var sass = require('gulp-sass');
 
 const scssFiles = [
     './src/scss/main.scss',
-    './src/scss/content.scss'
+    './src/scss/content.scss',
+    './src/scss/lmenu.scss',
+    './src/scss/icons.scss',
+    './src/scss/grid.scss'
 ];
 const jsFiles = [
-    './src/js/test.js',
-    './src/js/secondtest.js',
-    './src/js/abc.js'
+    './src/js/jquery.classyloader.js',
+    //'./src/js/progress.js',
+    //'./src/js/graph.js',
+    //'./src/js/round_bar.js',
 ];
 function styles() {
 	return gulp.src(scssFiles)
@@ -29,12 +33,9 @@ function styles() {
 
 function scripts() {
     return gulp.src(jsFiles)
-		/*.pipe(uglify({
-            toplevel: true
-        }))
-        */
+        
         .pipe(concat('scripts.js'))
-
+        //.pipe(uglify())
         .pipe(gulp.dest('./build/js'))
         .pipe(browserSync.stream());
 }

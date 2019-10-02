@@ -1,4 +1,15 @@
-body {
-	background-size: 15px 15px;
-	background-color: black;
+#content {
+	transition-duration: 0.3s;
+	transition-property: all;
+	.mdc-layout-grid {
+		padding-bottom: 0px;
+	}
+	.im_ca {
+		padding-bottom: 24px;
+	}
+}
+.freecontent#content {
+	//when lmenu hidden
+	margin-left: 55px;
+	width: calc(100% - 55px);
 }

@@ -1,0 +1,586 @@
+$tpadd: 15px;
+
+body {
+    background-color: rgb(228,235,247);
+}
+#content {
+    color: rgb(81, 89, 116);
+    .gray_text {
+        color: #aaabbf;
+    }
+    .shadowed {
+        border-bottom: 2px solid rgb(203,209,220);
+        background-color: white;
+        border-radius: 5px;
+    }
+    .light_bordered {
+        border-bottom: 1px solid rgb(203,209,220);
+    }
+    .supp_bar {
+        margin-bottom: auto;
+            margin-top: auto;
+        div {
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+    }
+
+    select::-ms-expand {
+        display: none !important;
+    }
+
+
+    .title {
+        padding-top: -5px !important;
+        
+        div:nth-child(2) {
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .open_close {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            i {
+                margin-left: 10px;
+            }
+
+            i:nth-child(2) {
+                //margin-right: 15px;
+            }
+        }
+    }
+    .padded {
+
+         padding-right: $tpadd;
+         padding-left: $tpadd;
+         canvas {
+            
+
+         }
+
+    }
+    .padded-top {
+        padding-top: $tpadd;
+    }
+    .padded-bottom {
+        padding-bottom: $tpadd;
+    }
+    #content-add-teammate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        color: white;
+        background-color: rgba(87, 192, 89, 1);
+
+        span {
+            margin-right: 5px;
+        }
+    }
+
+    .search {
+        //height: 75px;
+        //background-color: rgba(33,33,200,0.3);
+        padding: 10px !important;
+        margin-bottom: 15px;
+        .search-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            border: 0px;
+        }
+    }
+    #myChart {
+        width: 100% !important;
+    }
+    //this is for all selects and buttons
+    .pa-settings {
+        height: 40px;
+        border-radius: 25px;
+        font-size: 14pt;
+        min-width: 100px;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid rgba(100, 100, 100, 1);
+        background-color: rgba(0, 0, 0, 0.0);
+        
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    select {
+        border: 3px solid rgba(165, 166, 187, 0.8);
+        color: rgb(81, 89, 116);
+
+        &.type-red {
+            color: white;
+            border: none;
+            background-color: rgb(255, 91, 99);
+        }
+
+        &.type-blue {
+            color: white;
+            border: none;
+            background-color: rgb(84, 166, 222);
+        }
+    }
+
+    #man_activ_total {
+        color: rgba(244, 91, 99, 1);
+    }
+
+    .total {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+	.pa {
+        padding: 0px;
+		.pa-ticks {
+			font-size: 16pt;
+			.pa-ticks-day {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 20pt;
+				width: 100%;
+				font-weight: 600;
+			}
+			.pa-ticks-date {
+				
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+			}
+		}
+	}
+    .involved_team {
+
+        .involved-photo {
+            border-radius: 45px;
+            width: 90px;
+            height: 90px;
+            overflow: hidden;
+
+            embed {
+                width: 64px;
+                height: 64px;
+            }
+        }
+
+        .it_item {
+            margin-bottom: 15px;
+
+            .user {
+                margin-top: auto;
+                margin-bottom: auto;
+
+                .role {
+                    color: rgb(165, 166, 187);
+                    font-size: 14pt;
+                }
+
+                .name {
+                    font-size: 18pt;
+                    font-weight: 550;
+                    color: rgb(81, 89, 116);
+                }
+            }
+        }
+
+        .add_it {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .messages {
+        .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .you {
+            //float: right;
+            justify-content: flex-start !important;
+
+            .text {
+                color: rgb(81, 89, 116);
+                background-color: rgb(225, 231, 240);
+            }
+        }
+
+        .oponent {
+            .text {
+                color: white;
+                background-color: rgb(87, 192, 89);
+            }
+        }
+
+        .message-container {
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .messages-message {
+            display: flex;
+            font-size: 14pt;
+
+            .text {
+                width: calc(100% - 60px);
+                font-weight: 100;
+                border-radius: 5px;
+                margin-right: 15px;
+                margin-left: 15px;
+                padding: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+        }
+
+        .date {
+            color: rgb(165, 166, 187);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 20px;
+        }
+    }
+
+    .implementation {
+        font-size: 14pt;
+        color: rgb(81, 89, 116);
+        padding-bottom: 20px;
+
+        .data-type {
+            font-size: 14pt;
+            color: rgb(170, 171, 191);
+        }
+
+        .data-row {
+            font-size: 14pt;
+            margin-top: 15px;
+
+            div {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            .date {
+                div:nth-child(1) {
+                    div:nth-child(1) {
+                        font-size: 18pt;
+                        font-weight: 600;
+                        color: rgb(81, 89, 116);
+                    }
+
+                }
+
+                .implementation-day {
+                    color: rgb(170, 171, 191);
+                }
+            }
+
+            .description {
+                font-size: 18pt;
+                font-weight: 600;
+                color: rgb(81, 89, 116);
+            }
+
+            .balance {
+                .transaction_value {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+
+                    height: 50px;
+
+
+                    span {
+                        display: block;
+                        margin-top: 0px;
+                    }
+
+                    text-align: center;
+                    border-radius: 35px;
+                    font-size: 16pt;
+                    font-weight: 500;
+                    color: rgb(242, 246, 252);
+
+                }
+
+                .positive {
+                    background-color: rgb(87, 192, 89);
+
+                }
+
+                .negative {
+                    background-color: rgb(255, 91, 99);
+                }
+            }
+        }
+    }
+
+    .client_activity {
+        font-size: 14pt;
+
+        .ca-row {
+            margin-bottom: 10px;
+
+            div {
+                margin-bottom: auto;
+                margin-top: auto;
+            }
+
+            .photo {
+                border-radius: 45px;
+                width: 90px;
+                height: 90px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    //width: 100%;
+                    height: 100%
+                }
+            }
+
+            .ca-name {
+                font-size: 18pt;
+                font-weight: 600;
+                color: rgb(81, 89, 116);
+            }
+
+            .ca-profit {
+                font-size: 18pt;
+                font-weight: 600;
+                color: rgb(81, 183, 72);
+            }
+        }
+    }
+
+    .mail {
+        font-size: 14pt;
+        padding: 0px;
+        .photo {
+            //margin-right: 15px!important;
+            border-radius: 45px;
+            overflow: hidden;
+            width: 80px;
+            height: 80px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        select {
+            outline: none;
+            border: none;
+            font-size: 14pt;
+        }
+
+        input {
+            font-size: 14pt;
+        }
+
+        label {
+            font-size: 14pt;
+        }
+        
+        .mail-new-bar {
+            padding: 10px;
+
+            .mail-new {
+                margin: auto;
+                //text-align: center;
+                width: 230px;
+                height: 50px;
+                background-color: rgb(244, 91, 99);
+                color: white;
+                border-radius: 35px;
+
+                span {
+                    font-weight: 600;
+                    font-size: 14pt;
+                    position: relative;
+                    left: calc(50% - 15px);
+                    top: 15px;
+                    //transform: translate(-50%, -50%);
+                }
+            }
+        }
+
+        .mail-inbox {
+            height: 100%;
+
+            .title {
+                margin-left: 15px;
+            }
+
+            .supp_bar {
+                height: 100%;
+            }
+
+            div {
+
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size: 22pt;
+                font-weight: 550;
+            }
+
+            color: white;
+            margin-left: -15px;
+            background-color: rgb(87, 192, 89);
+        }
+        .mail-labels {
+            li {
+               // display: flex;
+                width: 100px;
+                height: 20px;
+                margin-bottom: 10px;
+                div {
+                    width: 100%;
+                    height: 20px;
+                    display: flex;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .mail-user {
+            font-size: 14pt;
+
+            div {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            .mail-user-name {
+                font-weight: 600;
+                font-size: 16pt;
+            }
+
+            background-color: rgb(84, 166, 222);
+            padding: 10px;
+            color: white;
+        }
+
+        .unread {
+
+            background-color: rgb(244, 91, 99);
+            overflow: hidden;
+            border-radius: 15px;
+        }
+
+        .mail-link {
+            display: flex;
+            //justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+            padding-left: 10px;
+
+        }
+
+        .mail-link:hover {
+            margin-left: -3px;
+            border-left: 3px solid rgb(244, 91, 99);
+        }
+
+        .mail-labels {
+            font-size: 14pt;
+
+            ul {
+                li {
+                    display: block;
+                }
+            }
+        }
+
+        .searchbar {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            height: 30px;
+            padding-left: 20px;
+            width: 280px;
+
+            border-radius: 60px;
+            background-color: rgba(255, 255, 255, 0.2);
+            display: flex;
+
+
+            input {
+                color: white;
+                outline: 0;
+                height: 100%;
+                margin-left: 15px;
+                border: 0px;
+                background-color: rgba(0, 0, 0, 0);
+
+                &::placeholder {
+                    color: white;
+                }
+            }
+        }
+
+        .mail-message {
+            input {
+                width: 20px;
+                height: 20px;
+            }
+
+            .star {
+                opacity: 0.2;
+            }
+
+            .fpiece {
+                display: flex;
+                align-items: center;
+            }
+
+            //display: flex;
+            .title {
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+
+            .date {
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+        }
+
+        .stared {
+            .star {
+                opacity: 1;
+            }
+        }
+
+        .unreaded {
+            font-weight: 700;
+        }
+    }
+}
