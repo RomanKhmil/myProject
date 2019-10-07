@@ -7,6 +7,14 @@
 	.im_ca {
 		padding-bottom: 24px;
 	}
+	.unpadded-lr {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	input[type="checkbox"]{
+		background-color: rgba(0,0,0,0);
+		color: white;
+	}
 }
 .freecontent#content {
 	//when lmenu hidden

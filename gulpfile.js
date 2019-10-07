@@ -21,6 +21,7 @@ const jsFiles = [
     './src/js/progress.js',
     './src/js/graph.js',
     './src/js/round_bar.js',
+    './src/js/lmenu.js'
 ];
 function styles() {
 	return gulp.src(scssFiles)

@@ -14,7 +14,18 @@ body {
         border-radius: 5px;
     }
     .light_bordered {
-        border-bottom: 1px solid rgb(203,209,220);
+        border-bottom: 1px solid rgba(203,209,220,0.5);
+    }
+    .cell-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vert_padded {
+        padding-top: $tpadd;
+        padding-bottom: $tpadd;
+    }
+    .vert_padded-bottom {
+        padding-bottom: $tpadd;
     }
     .supp_bar {
         margin-bottom: auto;
@@ -31,14 +42,18 @@ body {
 
 
     .title {
-        padding-top: -5px !important;
         
+        padding-top: 10px;
+        padding-bottom: 5px;
+        h1 {
+            margin: 0px;
+        }
         div:nth-child(2) {
-            margin-top: auto;
-            margin-bottom: auto;
+
         }
 
         .open_close {
+            margin-top: 8px;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
@@ -377,6 +392,7 @@ body {
     }
 
     .mail {
+        margin-bottom: $tpadd + 10px;
         font-size: 14pt;
         padding: 0px;
         .photo {
@@ -504,6 +520,7 @@ body {
         .mail-link:hover {
             margin-left: -3px;
             border-left: 3px solid rgb(244, 91, 99);
+            background-color: rgb(225,231,240);
         }
 
         .mail-labels {
@@ -523,7 +540,8 @@ body {
             height: 30px;
             padding-left: 20px;
             width: 280px;
-
+            margin-left: auto;
+            margin-right: 10px;
             border-radius: 60px;
             background-color: rgba(255, 255, 255, 0.2);
             display: flex;
@@ -544,6 +562,8 @@ body {
         }
 
         .mail-message {
+            padding-left: $tpadd;
+            padding-right: $tpadd;
             input {
                 width: 20px;
                 height: 20px;
@@ -570,6 +590,9 @@ body {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
+            }
+            &:hover {
+                background-color: rgb(225,231,240);
             }
         }
 
