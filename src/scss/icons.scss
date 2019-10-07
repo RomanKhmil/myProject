@@ -3,6 +3,11 @@
 	width: 30px;
 	height: 13px;
 	background: url('../../img/Arrow Dark.svg') no-repeat center;
+}.icon-arrow-light {
+	display: block;
+	width: 30px;
+	height: 13px;
+	background: url('../../img/Arrow Light.svg') no-repeat center;
 }
 .icon-menu {
 		display: block;
@@ -243,6 +248,12 @@
 		width: 50px;
 		height: 50px;
 		background: url('../../img/content/Star.svg') no-repeat center;
+	}
+	.icon-star-white {
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: url('../../img/content/Star White.svg') no-repeat center;
 	}
 	.icon-labels-blue {
 		display: block;

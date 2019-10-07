@@ -8,6 +8,10 @@ body {
     .gray_text {
         color: #aaabbf;
     }
+    .zero-height {
+        height: 0px !important;
+        overflow: hidden !important;
+    }
     .shadowed {
         border-bottom: 2px solid rgb(203,209,220);
         background-color: white;
@@ -26,6 +30,16 @@ body {
     }
     .vert_padded-bottom {
         padding-bottom: $tpadd;
+    }
+    .vert_padded-top {
+
+        padding-top: $tpadd;
+    }
+    .padded-left {
+        padding-left: $tpadd;
+    }
+    .padded-right {
+        padding-right: $tpadd;
     }
     .supp_bar {
         margin-bottom: auto;
@@ -77,6 +91,10 @@ body {
          }
 
     }
+    .padded-2 {
+        padding-right: $tpadd * 2;
+        padding-left: $tpadd * 2;
+    }
     .padded-top {
         padding-top: $tpadd;
     }
@@ -113,10 +131,14 @@ body {
     #myChart {
         width: 100% !important;
     }
+    #secondChart {
+        width: 100% !important;
+    }
     //this is for all selects and buttons
     .pa-settings {
         height: 40px;
         border-radius: 25px;
+        margin-left: 15px;
         font-size: 14pt;
         min-width: 100px;
         outline: none;
@@ -127,7 +149,9 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    .ma_graph {
+        //width: 100%;
+    }
     select {
         border: 3px solid rgba(165, 166, 187, 0.8);
         color: rgb(81, 89, 116);
@@ -406,7 +430,10 @@ body {
                 width: 100%;
             }
         }
-
+        .select {
+            width: 20px;
+                height: 20px;
+        }
         select {
             outline: none;
             border: none;
@@ -468,6 +495,7 @@ body {
             background-color: rgb(87, 192, 89);
         }
         .mail-labels {
+
             li {
                // display: flex;
                 width: 100px;
@@ -480,6 +508,12 @@ body {
                     i {
                         margin-right: 10px;
                     }
+                }
+            }
+            #mail_labels {
+                display: flex;
+                i.icon-arrow-light {
+                    margin-left: auto;
                 }
             }
         }
@@ -524,8 +558,11 @@ body {
         }
 
         .mail-labels {
+            transition-duration: 0.1s;
+            transition-property: all;
+            height: 160px;
             font-size: 14pt;
-
+            overflow: hidden;
             ul {
                 li {
                     display: block;
@@ -567,10 +604,11 @@ body {
             input {
                 width: 20px;
                 height: 20px;
+
             }
 
             .star {
-                opacity: 0.2;
+                opacity: 1;
             }
 
             .fpiece {

@@ -7,46 +7,44 @@
     <script src="node_modules/jquery/dist/jquery.min.js">
     </script>
     <!-- Material Design -->
-   
-   <link href="node_modules/material-components-web/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="node_modules/material-components-web/dist/material-components-web.min.css" rel="stylesheet">
     <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
     <!---  Addons        -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-
     <title> </title>
     <title>Document</title>
     <link rel="stylesheet" href="build/css/style.css">
 </head>
 
 <body>
-    <div id = "hidden_lmenu_links">
+    <div id="hidden_lmenu_links">
         <span>
-            <i type = "link" class="icon-menu" id="abs_menu_link"></i>
+            <i type="link" class="icon-menu" id="abs_menu_link"></i>
         </span>
         <a href="#">
-        <i type = "link" class="icon-home"></i></a>
+            <i type="link" class="icon-home"></i></a>
         <a href="#">
-        <i type = "link" class="icon-project"></i></a>
+            <i type="link" class="icon-project"></i></a>
         <a href="#">
-        <i type = "link" class="icon-messages"></i></a>
+            <i type="link" class="icon-messages"></i></a>
         <a href="#">
-        <i type = "link" class="icon-analytics"></i></a>
+            <i type="link" class="icon-analytics"></i></a>
         <a href="#">
-        <i type = "link" class="icon-tasks"></i></a>
+            <i type="link" class="icon-tasks"></i></a>
         <a href="#">
-        <i type = "link" class="icon-calendar"></i></a>
+            <i type="link" class="icon-calendar"></i></a>
         <a href="#">
-        <i type = "link" class="icon-layots"></i></a>
+            <i type="link" class="icon-layots"></i></a>
         <a href="#">
-        <i type = "link" class="icon-accounts"></i></a>
+            <i type="link" class="icon-accounts"></i></a>
         <a href="#">
-        <i type = "link" class="icon-payments"></i></a>
+            <i type="link" class="icon-payments"></i></a>
         <a href="#">
-        <i type = "link" class="icon-directory"></i></a>
+            <i type="link" class="icon-directory"></i></a>
         <a href="#">
-        <i type = "link" class="icon-library"></i></a>
+            <i type="link" class="icon-library"></i></a>
         <a href="#">
-        <i type = "link" class="icon-help"></i></a>
+            <i type="link" class="icon-help"></i></a>
     </div>
     <div class="lmenu">
         <div class="l_a_rd">
@@ -151,7 +149,7 @@
                 </div>
             </div>
             <div class="mdc-layout-grid pa shadowed">
-                <div class="mdc-layout-grid__inner title padded light_bordered">
+                <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                     <div class="mdc-layout-grid__cell--span-10">
                         <h1>Project activity</h1>
                     </div>
@@ -187,7 +185,6 @@
                     <div class="mdc-layout-grid__cell--span-12">
                         <canvas id="myChart" width="400vw" height="150vw"></canvas>
                     </div>
-                    
                 </div>
                 <div class="mdc-layout-grid__inner pa-ticks padded-bottom">
                     <div class="mdc-layout-grid__cell--span-2">
@@ -267,7 +264,7 @@
             <div class="mdc-layout-grid it_ma unpadded-lr">
                 <div class="mdc-layout-grid__inner">
                     <div class="mdc-layout-grid__cell--span-4 involved_team shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-8">
                                 <h1>Involved Team</h1>
                             </div>
@@ -368,7 +365,7 @@
                         </div>
                     </div>
                     <div class="mdc-layout-grid__cell--span-8 shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-10">
                                 <h1>Mangers Activity</h1>
                             </div>
@@ -393,7 +390,11 @@
                             </div>
                         </div>
                         <div class="mdc-layout-grid__inner padded">
-                            <canvas id="secondChart" width="1200vw" height="400vw"></canvas>
+                            <div class="mdc-layout-grid__cell--span-12">
+                                <div class="cell-center ma_graph">
+                                    <canvas id="secondChart" width="1200vw" height="400vw"></canvas>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -401,7 +402,7 @@
             <div class="mdc-layout-grid vs_me unpadded-lr">
                 <div class="mdc-layout-grid__inner">
                     <div class="mdc-layout-grid__cell--span-8 shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-8">
                                 <h1>Visits</h1>
                             </div>
@@ -444,7 +445,7 @@
                         </div>
                     </div>
                     <div class="mdc-layout-grid__cell--span-4 messages shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-8">
                                 <h1>Messages</h1>
                             </div>
@@ -507,7 +508,7 @@
             <div class="mdc-layout-grid im_ca unpadded-lr">
                 <div class="mdc-layout-grid__inner">
                     <div class="mdc-layout-grid__cell--span-5 implementation shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-8">
                                 <h1>Implementation</h1>
                             </div>
@@ -623,7 +624,7 @@
                         </div>
                     </div>
                     <div class="mdc-layout-grid__cell--span-7 client_activity shadowed">
-                        <div class="mdc-layout-grid__inner title padded light_bordered">
+                        <div class="mdc-layout-grid__inner title padded-2 light_bordered">
                             <div class="mdc-layout-grid__cell--span-8">
                                 <h1>Client Activity</h1>
                             </div>
@@ -705,7 +706,7 @@
             <div class="mdc-layout-grid mail shadowed">
                 <div class="mdc-layout-grid__inner">
                     <div class="mdc-layout-grid__cell--span-12 vert_padded-bottom">
-                        <div class="mdc-layout-grid__inner title padded">
+                        <div class="mdc-layout-grid__inner title padded-2">
                             <div class="mdc-layout-grid__cell--span-10">
                                 <h1>Mail</h1>
                             </div>
@@ -792,7 +793,7 @@
                                     </div>
                                 </div>
                                 <div class="mdc-layout-grid__inner">
-                                    <div class="mdc-layout-grid__cell--span-12">
+                                    <div class="mdc-layout-grid__cell--span-12 light_bordered">
                                         <div class="mail-link">
                                             <i class="icon-trash"></i>
                                             <span>Trash</span>
@@ -800,35 +801,38 @@
                                     </div>
                                 </div>
                                 <div class="mdc-layout-grid__inner">
-                                    <div class="mail-labels">
-                                        <div class="title">
-                                            Lables
+                                    <div class="mdc-layout-grid__cell--span-12">
+                                        <div class="mail-labels">
+                                            <div class="title padded" id="mail_labels">
+                                                <span>
+                                                    Labels
+                                                </span>
+                                                <i class="icon-arrow-light"></i>
+                                            </div>
+                                            <ul class="mail-labels" id="label_list">
+                                                <li>
+                                                    <div><i class="icon-labels-blue"></i><span>work</span></div>
+                                                </li>
+                                                <li>
+                                                    <div><i class="icon-labels-green"></i><span>work</span></div>
+                                                </li>
+                                                <li>
+                                                    <div><i class="icon-labels-red"></i><span>work</span></div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <ul class="mail-labels">
-                                            <li >
-                                                <div><i class="icon-labels-blue"></i><span>work</span></div>
-                                            </li>
-                                            <li><div><i class="icon-labels-green"></i><span>work</span></div></li>
-                                            <li><div><i class="icon-labels-red"></i><span>work</span></div></li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="mdc-layout-grid__cell--span-9">
                                 <div class="mdc-layout-grid__inner supp_bar">
                                     <div class="mdc-layout-grid__cell--span-8">
-                                        <div class="mdc-form-field">
-                                            <div class="mdc-checkbox">
-                                                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                                                <div class="mdc-checkbox__background">
-                                                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                                                    </svg>
-                                                    <div class="mdc-checkbox__mixedmark"></div>
-                                                </div>
+                                       
+                                            <div class="select">
+                                                <input type="checkbox">
+                                                <label for="">all</label>
                                             </div>
-                                            <label for="checkbox-1">All</label>
-                                        </div>
+                                           
                                         <select name="" id="">
                                             <option value="">Mark</option>
                                         </select>
@@ -878,7 +882,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Blurpix Studio
@@ -903,7 +907,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Facebook
@@ -928,7 +932,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Twitter
@@ -978,7 +982,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Apple Wision
@@ -1003,7 +1007,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Max Drone
@@ -1028,7 +1032,7 @@
                                                     <input type="checkbox">
                                                 </div>
                                                 <div class="star">
-                                                    <i class="icon-star"></i>
+                                                    <i class="icon-star-white"></i>
                                                 </div>
                                                 <div class="author">
                                                     Timeweb
@@ -1078,13 +1082,14 @@
                 </div>
             </div>
         </div>
-           </div>
-    
-    <script src="build/js/scripts.js">	</script>
+    </div>
+    <script src="build/js/scripts.js"> </script>
+    <script src="src/js/close_collapse.js"></script>
+    <script src="src/js/labels.js"></script>
     <!--
-	<script src="js/graph.js"></script>
-	
-	<script src="js/progress.js"></script>-->
+    <script src="js/graph.js"></script>
+    
+    <script src="js/progress.js"></script>-->
 </body>
 
 </html>

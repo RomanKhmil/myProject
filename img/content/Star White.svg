@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25" width="26" height="25">
+	<defs>
+		<image width="12" height="11" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMiAxMSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjExIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTIgMEwxMiAxMUwwIDExWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICNlMmVkZjQgfSAKCQkuc2hwMSB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjZTJlZGY0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6IDAuNzUgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik00LjA5IDMuNzdMMC4zOCA0LjNMMy4wNiA2LjkzTDIuNDMgMTAuNjJMNS43NSA4Ljg4TDkuMDcgMTAuNjJMOC40NCA2LjkzTDExLjEzIDQuM0w3LjQxIDMuNzdMNS43NSAwLjRMNC4wOSAzLjc3WiIgLz4KCQk8cGF0aCBpZD0iUGF0aCAyIiBjbGFzcz0ic2hwMSIgZD0iTTUuNzUgMC40TDcuNDEgMy43N0wxMS4xMyA0LjMxTDguNDQgNi45M0w5LjA3IDEwLjYyTDUuNzUgOC44OEwyLjQzIDEwLjYyTDMuMDYgNi45M0wwLjM3IDQuMzFMNC4wOSAzLjc3TDUuNzUgMC40WiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Box Mail">
+		<g id="Box Body">
+			<g id="Messages">
+				<g id="Message">
+					<use id="Vector Smart Object16 copy 2" href="#img1" transform="matrix(2.261,0,0,2.278,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
