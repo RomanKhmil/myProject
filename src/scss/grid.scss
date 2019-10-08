@@ -7,6 +7,11 @@ body {
 #content {
     color: rgb(81, 89, 116);
 
+    .linkDefaults {
+        cursor: pointer;
+        user-select: none;
+    }
+
     .gray_text {
         color: #aaabbf;
     }
@@ -299,6 +304,44 @@ body {
         .message-container {
             margin-bottom: 5px;
             margin-top: 5px;
+
+            .you {
+                //message_triger!!1
+                .text:before {
+                    float: right;
+                    top: 5px;
+                    left: 25px;
+                    transform: rotate(45deg);
+                    content: "";
+                    position: relative;
+                    display: block;
+                    background-color: red;
+                    //left: 380px;
+                    //background: url(separador.png) center center no-repeat;
+                    height: 20px;
+                    width: 20px;
+                    margin-right: 0px;
+                }
+
+            }
+
+            .oponent {
+                .text:before {
+                    float: left;
+                    top: 5px;
+                    right: 25px;
+                    transform: rotate(45deg);
+                    content: "";
+                    position: relative;
+                    display: block;
+                    background-color: red;
+                    //left: 380px;
+                    //background: url(separador.png) center center no-repeat;
+                    height: 20px;
+                    width: 20px;
+                    margin-right: 0px;
+                }
+            }
         }
 
         .messages-message {
@@ -748,7 +791,7 @@ body {
                 height: 15px;
                 width: 15px;
                 background-color: rgba(0, 0, 0, 0);
-                border: 2px solid rgba(81,89,116, 1);
+                border: 2px solid rgba(81, 89, 116, 1);
                 border-radius: 5px;
             }
 
@@ -761,7 +804,7 @@ body {
             .mail_select_input input:checked~.checkmark {
                 background-color: rgba(0, 0, 0, 0);
                 border-radius: 4px;
-                border: 2px solid rgba(81,89,116, 1);
+                border: 2px solid rgba(81, 89, 116, 1);
             }
 
             padding-top: 8px;
