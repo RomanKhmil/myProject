@@ -1,49 +1,62 @@
 $tpadd: 15px;
 
 body {
-    background-color: rgb(228,235,247);
+    background-color: rgb(228, 235, 247);
 }
+
 #content {
     color: rgb(81, 89, 116);
+
     .gray_text {
         color: #aaabbf;
     }
+
     .zero-height {
         height: 0px !important;
         overflow: hidden !important;
     }
+
     .shadowed {
-        border-bottom: 2px solid rgb(203,209,220);
+        border-bottom: 2px solid rgb(203, 209, 220);
         background-color: white;
         border-radius: 5px;
     }
+
     .light_bordered {
-        border-bottom: 1px solid rgba(203,209,220,0.5);
+        border-bottom: 1px solid rgba(203, 209, 220, 0.5);
     }
+
     .cell-center {
         margin-left: auto;
         margin-right: auto;
     }
+
     .vert_padded {
         padding-top: $tpadd;
         padding-bottom: $tpadd;
     }
+
     .vert_padded-bottom {
         padding-bottom: $tpadd;
     }
+
     .vert_padded-top {
 
         padding-top: $tpadd;
     }
+
     .padded-left {
         padding-left: $tpadd;
     }
+
     .padded-right {
         padding-right: $tpadd;
     }
+
     .supp_bar {
         margin-bottom: auto;
-            margin-top: auto;
+        margin-top: auto;
+
         div {
             margin-bottom: auto;
             margin-top: auto;
@@ -56,15 +69,15 @@ body {
 
 
     .title {
-        
+
         padding-top: 10px;
         padding-bottom: 5px;
+
         h1 {
             margin: 0px;
         }
-        div:nth-child(2) {
 
-        }
+        div:nth-child(2) {}
 
         .open_close {
             margin-top: 8px;
@@ -81,26 +94,29 @@ body {
             }
         }
     }
+
     .padded {
 
-         padding-right: $tpadd;
-         padding-left: $tpadd;
-         canvas {
-            
+        padding-right: $tpadd;
+        padding-left: $tpadd;
 
-         }
+        canvas {}
 
     }
+
     .padded-2 {
         padding-right: $tpadd * 2;
         padding-left: $tpadd * 2;
     }
+
     .padded-top {
         padding-top: $tpadd;
     }
+
     .padded-bottom {
         padding-bottom: $tpadd;
     }
+
     #content-add-teammate {
         display: flex;
         justify-content: center;
@@ -119,21 +135,26 @@ body {
         //background-color: rgba(33,33,200,0.3);
         padding: 10px !important;
         margin-bottom: 15px;
+
         .search-icon {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         input {
             border: 0px;
         }
     }
+
     #myChart {
         width: 100% !important;
     }
+
     #secondChart {
         width: 100% !important;
     }
+
     //this is for all selects and buttons
     .pa-settings {
         height: 40px;
@@ -145,13 +166,15 @@ body {
         cursor: pointer;
         border: 1px solid rgba(100, 100, 100, 1);
         background-color: rgba(0, 0, 0, 0.0);
-        
+
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .ma_graph {
         //width: 100%;
     }
+
     select {
         border: 3px solid rgba(165, 166, 187, 0.8);
         color: rgb(81, 89, 116);
@@ -178,27 +201,32 @@ body {
         justify-content: center;
         align-items: center;
     }
-	.pa {
+
+    .pa {
         padding: 0px;
-		.pa-ticks {
-			font-size: 16pt;
-			.pa-ticks-day {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				font-size: 20pt;
-				width: 100%;
-				font-weight: 600;
-			}
-			.pa-ticks-date {
-				
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 100%;
-			}
-		}
-	}
+
+        .pa-ticks {
+            font-size: 16pt;
+
+            .pa-ticks-day {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20pt;
+                width: 100%;
+                font-weight: 600;
+            }
+
+            .pa-ticks-date {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    }
+
     .involved_team {
 
         .involved-photo {
@@ -303,7 +331,7 @@ body {
     .implementation {
         font-size: 14pt;
         color: rgb(81, 89, 116);
-        padding-bottom: 20px;
+        //padding-bottom: 20px;
 
         .data-type {
             font-size: 14pt;
@@ -419,6 +447,7 @@ body {
         margin-bottom: $tpadd + 10px;
         font-size: 14pt;
         padding: 0px;
+
         .photo {
             //margin-right: 15px!important;
             border-radius: 45px;
@@ -430,6 +459,7 @@ body {
                 width: 100%;
             }
         }
+
         .select {
             display: flex;
             padding-top: auto;
@@ -438,11 +468,13 @@ body {
             width: 100px;
             height: 50px;
             padding-top: 15px;
+
             input {
                 width: 20px;
-                height: 20px;   
+                height: 20px;
             }
         }
+
         select {
             outline: none;
             border: none;
@@ -456,7 +488,11 @@ body {
         label {
             font-size: 14pt;
         }
-        
+
+        .mail_select_input {
+            float: left;
+        }
+
         .mail-new-bar {
             padding: 10px;
 
@@ -479,12 +515,15 @@ body {
                 }
             }
         }
+
         .arrow_left {
             transform: rotate(90deg);
         }
+
         .arrow_right {
             transform: rotate(-90deg);
         }
+
         .mail-inbox {
             height: 100%;
 
@@ -508,29 +547,35 @@ body {
             margin-left: -15px;
             background-color: rgb(87, 192, 89);
         }
+
         .mail-labels {
 
             li {
-               // display: flex;
+                // display: flex;
                 width: 100px;
                 height: 20px;
                 margin-bottom: 10px;
+
                 div {
                     width: 100%;
                     height: 20px;
                     display: flex;
+
                     i {
                         margin-right: 10px;
                     }
                 }
             }
+
             #mail_labels {
                 display: flex;
+
                 i.icon-arrow-light {
                     margin-left: auto;
                 }
             }
         }
+
         .mail-user {
             font-size: 14pt;
 
@@ -548,14 +593,16 @@ body {
             padding: 10px;
             color: white;
         }
+
         .mail_list_page {
             width: 32px;
             height: 32px;
             border-radius: 16px;
-            background-color: rgba(0,0,0,0);
-            border: 2px solid rgba(221,212,210,1);
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid rgba(221, 212, 210, 1);
             float: right;
         }
+
         .unread {
 
             background-color: rgb(244, 91, 99);
@@ -575,27 +622,32 @@ body {
         .mail-link:hover {
             margin-left: -3px;
             border-left: 3px solid rgb(244, 91, 99);
-            background-color: rgb(225,231,240);
+            background-color: rgb(225, 231, 240);
         }
+
         .right_supp {
             padding-right: 25px;
             display: flex;
             justify-content: flex-end;
-            align-items:center;
+            align-items: center;
+
             span {
                 margin-left: 15px;
                 margin-right: 10px;
             }
+
             i {
-                margin-left:  5px;
+                margin-left: 5px;
             }
         }
+
         .mail-labels {
             transition-duration: 0.1s;
             transition-property: all;
             height: 160px;
             font-size: 14pt;
             overflow: hidden;
+
             ul {
                 li {
                     display: block;
@@ -634,6 +686,7 @@ body {
         .mail-message {
             padding-left: $tpadd;
             padding-right: $tpadd;
+
             input {
                 width: 20px;
                 height: 20px;
@@ -652,31 +705,76 @@ body {
             //display: flex;
             .title {
                 height: 100%;
+                max-height: 30px;
                 display: flex;
                 align-items: center;
             }
 
             .date {
                 height: 100%;
+
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
             }
+
             &:hover {
-                background-color: rgb(225,231,240);
+                background-color: rgb(225, 231, 240);
             }
         }
+
         .mail_option {
-            border: 2px solid rgba(222,211,210,1);
+            margin-left: 15px;
+            float: left;
+            border: 2px solid rgba(222, 211, 210, 1);
             border-radius: 30px;
             padding-left: 15px;
-            height: 50px;
+            height: 40px;
+
             option {
                 font-size: 12pt;
             }
+
             width: 120px;
         }
-        .stared {
+
+        .mail_option_input {
+
+            /* Create a custom checkbox */
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 15px;
+                width: 15px;
+                background-color: rgba(0, 0, 0, 0);
+                border: 2px solid rgba(81,89,116, 1);
+                border-radius: 5px;
+            }
+
+            /* On mouse-over, add a grey background color */
+            .mail_select_input:hover input~.checkmark {
+                background-color: rgba(50, 50, 50, 0.2);
+            }
+
+            /* When the checkbox is checked, add a blue background */
+            .mail_select_input input:checked~.checkmark {
+                background-color: rgba(0, 0, 0, 0);
+                border-radius: 4px;
+                border: 2px solid rgba(81,89,116, 1);
+            }
+
+            padding-top: 8px;
+            float: left;
+            border: 2px solid rgba(222, 211, 210, 1);
+            border-radius: 30px;
+            padding-left: 15px;
+            height: 30px;
+
+            width: 80px;
+        }
+
+        .mail .stared {
             .star {
                 opacity: 1;
             }

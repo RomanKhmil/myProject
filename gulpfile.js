@@ -22,7 +22,10 @@ const jsFiles = [
     './src/js/progress.js',
     './src/js/graph.js',
     './src/js/round_bar.js',
-    './src/js/lmenu.js'
+    './src/js/lmenu.js',
+    './src/js/close_collapse.js',
+    './src/js/labels.js',
+    './src/js/all_checkbox.js'
 ];
 function styles() {
 	return gulp.src(scssFiles)
