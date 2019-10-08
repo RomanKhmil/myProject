@@ -13,10 +13,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <title> </title>
     <title>Document</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="build/css/style.css">
 </head>
 
 <body>
+
     <div id="hidden_lmenu_links">
         <span>
             <i type="link" class="icon-menu" id="abs_menu_link"></i>
@@ -493,7 +495,7 @@
                                         </div>
                                         <div class="mdc-layuot-grid__inner">
                                             <div class="mdc-layout-grid__cell--span-12">
-                                                <div class="date you">
+                                                <div class="date you padded">
                                                     <span>12 minutes ago</span>
                                                 </div>
                                             </div>
@@ -825,28 +827,31 @@
                                 </div>
                             </div>
                             <div class="mdc-layout-grid__cell--span-9">
-                                <div class="mdc-layout-grid__inner supp_bar">
+                                <div class="mdc-layout-grid__inner supp_bar vert_padded">
                                     <div class="mdc-layout-grid__cell--span-8">
                                        
-                                            <div class="select">
-                                                <input type="checkbox">
-                                                <label for="">all</label>
-                                            </div>
+                                            <label class="mail_select_input">One
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
                                            
-                                        <select name="" id="">
+                                        <select name="" id="" class="mail_option">
                                             <option value="">Mark</option>
                                         </select>
-                                        <select name="" id="">
+                                        <select name="" id="" class="mail_option">
                                             <option value="">Move</option>
                                         </select>
                                     </div>
                                     <div class="mdc-layout-grid__cell--span-4">
-                                        <div>
-                                            <select name="" id="">
-                                                <option value="">Show</option>
+                                        <div class="right_supp"> 
+                                            <select name="" id="" >
+                                                <option value="" >Show</option>
                                             </select>
                                             <span>1-50 of 471</span>
+                                            <i class="icon-arrow-light mail_list_page arrow_left"></i>
+                                            <i class="icon-arrow-light mail_list_page arrow_right"></i>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="mdc-layout-grid" id="mail_messages_box">

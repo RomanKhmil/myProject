@@ -14,7 +14,8 @@ const scssFiles = [
     './src/scss/content.scss',
     './src/scss/lmenu.scss',
     './src/scss/icons.scss',
-    './src/scss/grid.scss'
+    './src/scss/grid.scss',
+    './src/scss/checkbox.scss'
 ];
 const jsFiles = [
     './src/js/jquery.classyloader.js',
